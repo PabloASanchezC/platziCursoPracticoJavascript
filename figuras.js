@@ -66,3 +66,59 @@ function areaCirculo(r) {
 
 console.groupEnd();
 
+// cuadrado
+function calcpericuadrado() {
+    const input = document.getElementById("inputCuadrado");
+    const value = input.value;
+    const perimetro = perimetroCuadrado(value);
+    alert(perimetro);
+}
+
+function calcareacuadrado() {
+    const input = document.getElementById("inputCuadrado");
+    const value = input.value;
+    const area = areaCuadrado(value);
+    alert(area);
+}
+
+// triangulo 
+
+function calcperitriangulo() {
+    const input1 = document.getElementById("inputlado1");
+    const value1 = Number(input1.value);
+    const input2 = document.getElementById("inputlado2");
+    const value2 = Number(input2.value);
+    const input3 = document.getElementById("inputbase");
+    const value3 = Number(input3.value);
+    const perimetro = perimetroTriangulo(value1, value2, value3);
+    alert(perimetro);
+}
+
+function calcareatriangulo() {
+    const input1 = document.getElementById("inputbase");
+    const value1 = input1.value;
+    const input2 = document.getElementById("inputha");
+    const value2 = input2.value;
+    const area = areaTriangulo(value1, value2);
+    alert(area);
+}
+
+// circulo
+function calcdamcirculo() {
+    const input = document.getElementById("inputCirculo");
+    const value = input.value;
+    const dam = diametrocirculo(value);
+    alert(dam);
+}
+function calccirccirculo() {
+    const input = document.getElementById("inputCirculo");
+    const value = input.value;
+    const circ = circunferencia(value);
+    alert(circ);
+}
+function calcareacirculo() {
+    const input = document.getElementById("inputCirculo");
+    const value = input.value;
+    const area =  areaCirculo(value);
+    alert(area);
+}
