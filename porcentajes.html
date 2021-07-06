@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y descuentos | Curso Práctico de JavaScript en Platzi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles2.css">
+</head>
+<body>
+   <header>
+    <h1>Porcentajes y descuento</h1>
+    <p>Este es el segundo taller del curso Práctico de JavaScript</p>
+    <section>
+        <ul>
+            <li><a href="./porcentajes.html">Porcentajes</a></li>
+            <li><a href="./index.html">Figuras</a></li>
+        </ul>
+    </section>
+   </header>
+   <main>
+       <section>
+           <h2>calcula el precio a pagar de tus productos con descuento</h2>
+           <form action="">
+               <label for="InputPrice">¿Cuánto cuesta tu producto?</label>
+               <input id="InputPrice" type="number">
+               <label for="InputDiscount">¿Cuánto descuento tiene?</label>
+               <input id="InputDiscount" type="number">
+               <button type="button" onclick="descuentoAplicado()">Ahorra aquí!!</button>
+               <p id="PriceP"></p>
+            </form>
+       </section>
+   </main>
+    <script src="./descuentos.js"></script>
+</body>
+</html>
