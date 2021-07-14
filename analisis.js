@@ -1,0 +1,1 @@
+const salariosMex = Mexico.map();
